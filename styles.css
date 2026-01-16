@@ -204,6 +204,38 @@ section.companion {
     background-color: var(--bg-light);
 }
 
+section.purchase {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    text-align: center;
+}
+
+section.purchase h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+section.purchase .lead {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-amazon {
+    background-color: #ff9900;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-amazon:hover {
+    background-color: #e68900;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 .page-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -328,6 +360,27 @@ li {
 .repository-features,
 .repository-access {
     margin-bottom: 2.5rem;
+}
+
+/* Purchase Section */
+.purchase-section {
+    margin: 3rem 0;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: var(--border-radius);
+    border: 2px solid #f59e0b;
+    text-align: center;
+}
+
+.purchase-section h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.purchase-section p {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
 }
 
 /* CTA Section */
