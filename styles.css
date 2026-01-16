@@ -286,6 +286,20 @@ li {
     margin-bottom: 0.5rem;
 }
 
+code {
+    background-color: #f1f5f9;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 0.9em;
+    color: #e11d48;
+}
+
+li code {
+    background-color: #f1f5f9;
+    padding: 0.15rem 0.3rem;
+}
+
 /* Feature Grid */
 .feature-grid {
     display: grid;
