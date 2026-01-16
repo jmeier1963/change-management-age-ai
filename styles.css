@@ -362,6 +362,35 @@ li {
     margin-bottom: 2.5rem;
 }
 
+.repository-link-box {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--primary-color);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.repository-link-box h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.repository-link-box .note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.companion-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
 /* Purchase Section */
 .purchase-section {
     margin: 3rem 0;
